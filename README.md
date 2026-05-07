@@ -32,7 +32,7 @@
 ### 1. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/GeoMRL.git
+git clone https://github.com/HPC-NEAU/GeoMRL.git
 cd GeoMRL
 
 # Install dependencies
