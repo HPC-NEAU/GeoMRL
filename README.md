@@ -114,15 +114,30 @@ GeoMRL's attention mechanism functions as an *in silico* steric clash detector. 
 
 ## 📁 Repository Structure
 ```text
-├── models/
-│   ├── GeoMRL.py         # Core GeoMRL Architecture
-│   ├── layers.py           # Geometric Attention & SE(3) updates
-│   └── __init__.py       # Task-specific Prediction Heads
-├── data_process/
-│   ├── data_collator.py     # PubChem & PDBBind Preprocessing
-│   └── compound_tools.py   # RDKit-based feature extraction
-├── main.py                # Distributed Pre-training Script
-└── config.py               # Hyperparameter Configuration
+
+├── config/                 # Configuration files
+│   └── config_finetune.yaml      # Hyperparameters for downstream tasks
+├── data_process/           # Data cleaning and tensor conversion
+│   ├── compound_tools.py         # RDKit wrappers & molecular feature extraction
+│   ├── data_collator.py          # Batching logic for MPP/Pretrain
+│   ├── data_collator_dti.py      # Specialized collator for Drug-Target pairs
+│   ├── function_group_constant.py# Chemical functional group definitions
+│   ├── distant_util.py           # Geometry and spatial calculation utilities
+│   └── algos.pyx                 # Cython-accelerated algorithms for speed
+├── models/                 # Model architectures
+│   ├── GeoMRL.py                 # Core GeoMRL architecture (Backbone + Heads)
+│   ├── GeoMRL_ablation.py        # Model variant for ablation studies
+│   ├── layers.py                 # Transformer and SE(3) attention layers
+│   └── layers/                   # Internal projection & attention modules
+├── utils/                  # Shared helper functions
+│   ├── public_util.py            # Seed setting, logging, and checkpointing
+│   ├── metric_util.py            # Metrics (RMSE, Pearson, AUC, AUPR)
+│   └── global_var_util.py        # Global variables and runtime controls
+├── main.py                 # Main entry point for pre-training (DDP supported)
+├── data_process.py         # Top-level data processing script
+├── dataset.py              # PyTorch Dataset definitions
+├── _config.py              # Helper script for path and task management
+└── README.md               # Project documentation
 ```
 
 ---
