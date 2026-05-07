@@ -18,14 +18,7 @@
     - **DDI**: Drug-Drug Interaction (ZhongDDI)
     - **PPI**: Protein-Protein Interaction (D-SCRIPT)
 
----
 
-## 🏗️ Model Architecture
-
-![GeoMRL Architecture](https://github.com/HPC-NEAU/GeoMRL/fig1.png)  
-*Figure 1: The overall architecture of GeoMRL, featuring Continuous Geometric Ligand Encoders and Gated Cross-Attention for multi-task prediction.*
-
----
 
 ## 🚀 Quick Start
 
