@@ -61,7 +61,7 @@ python data_process/prepare_mmap.py --input processed_data/pretrain --output pro
 ### Distributed Pre-training (DDP)
 GeoMRL supports large-scale pre-training using Distributed Data Parallel and Mmap datasets for zero-memory overhead.
 ```bash
-torchrun --nproc_per_node=8 main5.py \
+torchrun --nproc_per_node=8 main.py \
     --dataroot /path/to/mmap_data \
     --batch_size 32 \
     --lr 1e-4
