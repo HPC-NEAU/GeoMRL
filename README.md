@@ -1,4 +1,3 @@
----
 # GeoMRL: A Unified Geometric Framework for Multi-scale Molecular Representation Learning
 
 [![Paper](https://img.shields.io/badge/Paper-Nature_Communications_Target-blue)](https://github.com/your-username/GeoMRL)
@@ -7,7 +6,6 @@
 
 **GeoMRL** (Geometric Multi-scale Representation Learning) is a state-of-the-art geometric deep learning framework designed to bridge intra- and inter-molecular property predictions. By internalizing universal physical constraints through continuous RBF kernels and geometric gated cross-attention, GeoMRL excels at tasks ranging from small-molecule ADMET prediction to complex protein-ligand binding and protein-protein interactions.
 
----
 
 ## 🌟 Key Features
 
