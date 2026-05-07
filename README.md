@@ -19,6 +19,20 @@
     - **PPI**: Protein-Protein Interaction (D-SCRIPT)
 
 
+### 💾 Data Availability
+
+GeoMRL is evaluated on a comprehensive set of multi-scale biochemical benchmarks. All datasets used in this study are publicly available:
+
+*   **Pre-training Dataset**:
+    *   **PubChem**: A large-scale repository of 5 million drug-like compounds used for the M4 pre-training strategy. Available at [PubChem FTP](https://pubchem.ncbi.nlm.nih.gov/).
+*   **Intra-molecular Property Prediction (MPP)**:
+    *   **MoleculeNet**: Includes 9 benchmarks (BBBP, BACE, ClinTox, Tox21, ToxCast, SIDER, FreeSolv, ESOL, Lipophilicity). Available through the [DeepChem library](https://moleculenet.org/).
+*   **Inter-molecular Interaction & Affinity**:
+    *   **DTA (Drug-Target Affinity)**: The **PDBBind (v2020)** Refined Set provides 3D structures and affinity labels. Available at [PDBBind-CN](http://www.pdbbind.org.cn/).
+    *   **DTI (Drug-Target Interaction)**: The **BioSNAP** dataset consists of 58,964 interaction pairs. Available at [SNAP Biomedical Datasets](http://snap.stanford.edu/biodata/).
+    *   **DDI (Drug-Drug Interaction)**: The **ZhongDDI** dataset evaluates drug-drug conflicts across 191,808 pairs.
+    *   **PPI (Protein-Protein Interaction)**: The **D-SCRIPT Human** dataset serves as a benchmark for macromolecular assemblies. Available at [D-SCRIPT Official](https://d-script.readthedocs.io/).
+
 
 ## 🚀 Quick Start
 
