@@ -107,7 +107,6 @@ GeoMRL's attention mechanism functions as an *in silico* steric clash detector. 
 ├── data_process/
 │   ├── data_collator.py     # PubChem & PDBBind Preprocessing
 │   └── compound_tools.py   # RDKit-based feature extraction
-```
 ├── main.py                # Distributed Pre-training Script
 └── config.py               # Hyperparameter Configuration
 ```
