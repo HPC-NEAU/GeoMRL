@@ -77,7 +77,7 @@ torchrun --nproc_per_node=8 main.py \
 ### Fine-tuning on MoleculeNet (MPP)
 Evaluate on benchmarks with scaffold-splitting and 5-seed robust testing:
 ```bash
-python finetune_mpp_5seed.py \
+python finetune/finetune_mpp_5seed.py \
     --task bbbp \
     --ckpt checkpoints/pretrain_model.pth \
     --batch_size 64 \
@@ -86,7 +86,7 @@ python finetune_mpp_5seed.py \
 
 ### Drug-Target Interaction (DTI) & Affinity (DTA)
 ```bash
-python finetune_dti.py \
+python finetune/DTI.py \
     --data_root data/pdbbind_v2020.pkl \
     --ckpt checkpoints/pretrain_model.pth \
     --gpu 0
