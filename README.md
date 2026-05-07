@@ -103,14 +103,12 @@ GeoMRL's attention mechanism functions as an *in silico* steric clash detector. 
 ├── models/
 │   ├── GeoMRL.py         # Core GeoMRL Architecture
 │   ├── layers.py           # Geometric Attention & SE(3) updates
-│   └── projection.py       # Task-specific Prediction Heads
+│   └── __init__.py       # Task-specific Prediction Heads
 ├── data_process/
-│   ├── data_process.py     # PubChem & PDBBind Preprocessing
+│   ├── data_collator.py     # PubChem & PDBBind Preprocessing
 │   └── compound_tools.py   # RDKit-based feature extraction
+```
 ├── main.py                # Distributed Pre-training Script
-├── finetune_mpp_5seed.py   # MoleculeNet Benchmarking
-├── finetune_dti.py         # Drug-Target Affinity Fine-tuning
-├── DDI.py / PPI.py         # Interaction Prediction Scripts
 └── config.py               # Hyperparameter Configuration
 ```
 
