@@ -22,7 +22,7 @@
 
 ## 🏗️ Model Architecture
 
-![GeoMRL Architecture](https://github.com/your-username/GeoMRL/raw/main/figures/fig1.png)  
+![GeoMRL Architecture](https://github.com/HPC-NEAU/GeoMRL/raw/main/figures/fig1.png)  
 *Figure 1: The overall architecture of GeoMRL, featuring Continuous Geometric Ligand Encoders and Gated Cross-Attention for multi-task prediction.*
 
 ---
