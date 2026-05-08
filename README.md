@@ -80,6 +80,8 @@ Evaluate on benchmarks with scaffold-splitting and 5-seed robust testing:
 ```bash
 python finetune/finetune_mpp_5seed.py \
     --task bbbp \
+    --dataroot ./processed_data/mpp/pkl
+    --splitroot ./processed_data/mpp/split
     --ckpt checkpoints/pretrain_model.pth \
     --batch_size 64 \
     --epochs 100
