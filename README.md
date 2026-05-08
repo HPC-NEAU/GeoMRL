@@ -51,8 +51,8 @@ pip install torch torch-geometric rdkit tqdm scipy pandas scikit-learn
 
 ### 2. Data Preparation
 You can find the toy pretrain dataset in ``./data/pretrain``. 
-Preprocess dataset:
 
+Preprocess dataset:
 
 ```bash
 python prepare_data.py --taskname pretrain --dataroot .data/pretrain/pretrain.txt --datatarget ./data/pretrain/pretrain_data.pkl
