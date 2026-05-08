@@ -57,8 +57,6 @@ Preprocess dataset:
 ```bash
 python prepare_data.py --taskname pretrain --dataroot .data/pretrain/pretrain.txt --datatarget ./data/pretrain/pretrain_data.pkl
 ```
-Then you can get the processed pretrain dataset. Also, we have stored all the data we used in ``./data``.
-
 
 # Build Memory-mapped (Mmap) dataset for high-speed training
 python data_process/prepare_mmap.py --input processed_data/pretrain --output processed_data/pretrain/mmap_data
