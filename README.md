@@ -50,13 +50,15 @@ pip install torch torch-geometric rdkit tqdm scipy pandas scikit-learn
 ```
 
 ### 2. Data Preparation
-- **Pre-training**: Download the PubChem SDF (e.g., `Compound_002000001_002500000.sdf`).
-- **Fine-tuning**: Prepare MoleculeNet CSV files or PDBbind v2020 datasets.
+You can find the toy pretrain dataset in ``./data/pretrain``. 
+Preprocess dataset:
 
-Use the provided scripts to process raw data:
+
 ```bash
-# Pre-process ligand data for pre-training
-python data_process/data_process.py --mode pretrain
+python prepare_data.py --taskname pretrain --dataroot .data/pretrain/pretrain.txt --datatarget ./data/pretrain/pretrain_data.pkl
+```
+Then you can get the processed pretrain dataset. Also, we have stored all the data we used in ``./data``.
+
 
 # Build Memory-mapped (Mmap) dataset for high-speed training
 python data_process/prepare_mmap.py --input processed_data/pretrain --output processed_data/pretrain/mmap_data
