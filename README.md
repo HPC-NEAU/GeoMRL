@@ -32,7 +32,7 @@ GeoMRL is evaluated on a comprehensive set of multi-scale biochemical benchmarks
     *   **DTI (Drug-Target Interaction)**: The **BioSNAP** dataset consists of 58,964 interaction pairs. Available at [SNAP Biomedical Datasets](http://snap.stanford.edu/biodata/).
     *   **DDI (Drug-Drug Interaction)**: The **ZhongDDI** dataset evaluates drug-drug conflicts across 191,808 pairs.
     *   **PPI (Protein-Protein Interaction)**: The **D-SCRIPT Human** dataset serves as a benchmark for macromolecular assemblies. Available at [D-SCRIPT Official](https://d-script.readthedocs.io/).
-    *   
+      
 In addition, there is also processed downstream task data here: 10.5281/zenodo.20083794
 
 ## 🚀 Quick Start
