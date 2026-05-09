@@ -33,7 +33,7 @@ GeoMRL is evaluated on a comprehensive set of multi-scale biochemical benchmarks
     *   **DDI (Drug-Drug Interaction)**: The **ZhongDDI** dataset evaluates drug-drug conflicts across 191,808 pairs.
     *   **PPI (Protein-Protein Interaction)**: The **D-SCRIPT Human** dataset serves as a benchmark for macromolecular assemblies. Available at [D-SCRIPT Official](https://d-script.readthedocs.io/).
       
-In addition, there is also processed downstream task data here: 10.5281/zenodo.20083794
+In addition, there is also processed downstream task data here: [10.5281/zenodo.20083794](https://zenodo.org/records/20083794)
 
 ## 🚀 Quick Start
 
