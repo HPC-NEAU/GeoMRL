@@ -62,7 +62,7 @@ python prepare_data.py --taskname pretrain --dataroot .data/pretrain/pretrain.tx
 ```bash
 python data_process/prepare_mmap.py --input processed_data/pretrain --output processed_data/pretrain/mmap_data
 
-
+---
 ## 🚂 Training & Fine-tuning
 
 ### Distributed Pre-training (DDP)
