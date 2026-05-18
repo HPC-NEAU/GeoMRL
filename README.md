@@ -141,19 +141,3 @@ GeoMRL's attention mechanism functions as an *in silico* steric clash detector. 
 ├── _config.py              # Helper script for path and task management
 └── README.md               # Project documentation
 ```
-
----
-
-## 📝 Citation
-If you find our work useful in your research, please cite:
-```bibtex
-@article{liu2025geomrl,
-  title={GeoMRL: A Unified Geometric Framework for Multi-scale Molecular Representation Learning},
-  author={Liu, Yutong and Zhou, Changjian},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
-
-## 📬 Contact
-For questions or collaborations, please contact: **zhouchangjian@neau.edu.cn**
